@@ -1,11 +1,3 @@
-
-
-
-# Qship
-
-Qship is a simple web app to keep track of employees as well as trucks with their routes.
-visitors simply can view the truck records.
-
 # Spring boot
 Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications.
 
@@ -18,6 +10,13 @@ Provides Opinionated Development approach
 Avoids defining more Annotation Configuration
 Avoids writing lots of import statements
 Avoids XML Configuration.
+
+# Qship
+
+Qship is a simple web app to keep track of employees as well as trucks with their routes.
+visitors simply can view the truck records.
+
+# Qship application iverview
 
 ## index
 the index page , the first page or the entrance to qship, allows you to enter as a visitor or an admin. being a visitor only means you can view the truck data.
