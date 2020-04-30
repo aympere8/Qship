@@ -12,8 +12,15 @@ Spring Boot is a project that is built on the top of the Spring Framework. It pr
 It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
 ![spring.img](img/sp.png)
 
+The main goal of Spring Boot is to reduce development, unit test, and integration test time.
+
+Provides Opinionated Development approach
+Avoids defining more Annotation Configuration
+Avoids writing lots of import statements
+Avoids XML Configuration.
+
 ## index
-the index page allows you to enter as a visitor or an admin. being a visitor only means you can view the truck data.
+the index page , the first page or the entrance to qship, allows you to enter as a visitor or an admin. being a visitor only means you can view the truck data.
 other information is restricted to admin
 ![index.png](img/index.png)
 
