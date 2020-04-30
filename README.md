@@ -1,16 +1,3 @@
-# Spring boot
-Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications.
-
-It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
-![spring.img](img/sp.png)
-
-The main goal of Spring Boot is to reduce development, unit test, and integration test time.
-
-Provides Opinionated Development approach
-Avoids defining more Annotation Configuration
-Avoids writing lots of import statements
-Avoids XML Configuration.
-
 # Qship
 
 Qship is a simple web app to keep track of employees as well as trucks with their routes.
