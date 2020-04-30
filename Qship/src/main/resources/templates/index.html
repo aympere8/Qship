@@ -1,0 +1,45 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Qship Transports</title>
+ <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+<style>
+.boxer{
+height:300px;
+padding:100px;
+line-height:300%;
+}
+.boxerr{
+height:100px;
+padding:25px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div class="container text-center">
+
+<div class="container boxer">
+<h1 class="text-center">QSHIP TRANSPORTS<br><br>
+<small>Just Ship it!</small></h1>
+</div>
+<hr>
+<h4 class="boxerr">login as</h4>
+<div class="bns">
+<form method="GET" action="/adminlogin">
+<button class="btn btn-light btn-lg">Admin</button>
+
+</form>
+
+<form method="GET" action="fetchtrx">
+<button class="btn btn-dark btn-lg">Visitor (check truck info)</button>
+
+</form>
+</div>
+
+</div>
+</body>
+</html>
+<html>

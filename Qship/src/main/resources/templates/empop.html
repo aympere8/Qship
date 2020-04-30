@@ -1,0 +1,28 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>view data</title>
+ <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+ </head>
+<body>
+<div>
+ <table class="table table-striped" th:if="${not #lists.isEmpty(list)}">
+ <tr>
+ <th>Id </th>
+ <th>Name</th>
+ <th>Phone Nmber</th>
+ <th>Address</th>
+ <th>DOB</th>
+ <th>Branch</th>
+ </tr>
+ <tr th:each="lists : ${list}">
+ <td th:text="${lists.eid}"></td>
+  <td th:text="${lists.name}"></td>
+   <td th:text="${lists.phone}"></td>
+    <td th:text="${lists.address}"></td>
+     <td th:text="${lists.dob}"></td>
+      <td th:text="${lists.branch}"></td>
+      
+</tr>
+</table>
+</div>
+</body>
+</html>

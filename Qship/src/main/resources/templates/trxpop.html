@@ -1,0 +1,28 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>view data</title>
+ <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+</head>
+<body>
+<div>
+ <table  class="table table-striped" th:if="${not #lists.isEmpty(list)}">
+ <tr>
+ <th>Id </th>
+ <th>Reg.No</th>
+ <th>departed from</th>
+ <th>Arrival at</th>
+ <th>driver</th>
+ 
+ </tr>
+ <tr th:each="lists : ${list}">
+ <td th:text="${lists.tid}"></td>
+  <td th:text="${lists.regno}"></td>
+   <td th:text="${lists.departedFrom}"></td>
+    <td th:text="${lists.arrivalAt}"></td>
+     <td th:text="${lists.driver}"></td>
+      
+      
+</tr>
+</table>
+</div>
+</body>
+</html>
